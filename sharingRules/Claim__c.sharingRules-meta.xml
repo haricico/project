@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Share_Records_based_on_Policy_State_CA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Records based on Policy State CA</label>
+        <sharedTo>
+            <group>CA_Adjusters</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Policy_Account_Holder_State__c</field>
+            <operation>equals</operation>
+            <value>CA</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_Records_based_on_Policy_State_TX</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Records based on Policy State TX</label>
+        <sharedTo>
+            <group>TX_Adjusters</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Policy_Account_Holder_State__c</field>
+            <operation>equals</operation>
+            <value>TX</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>
