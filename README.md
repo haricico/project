@@ -76,4 +76,5 @@ Manual end-to-end check:
 The project documentation PDF is in the `docs/` folder.
 
 ## Team
-Vinoth Kumar (lead), Harish G, J Jegan, Ajai Karthi, M Stony
+K. Hari Hara nathan (leader) , gowtham , prabhakaran , adhi kesavan , sai saran
+
